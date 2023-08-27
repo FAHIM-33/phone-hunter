@@ -1,0 +1,45 @@
+body {
+    font-family: Poppins;
+}
+
+.main-btn {
+    background-color: #0D6EFD;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 1rem 2.2rem;
+}
+
+.t-header {
+    color: #403F3F;
+    font-size: 1.5625rem;
+    font-weight: 700;
+}
+
+.plain-text {
+    color: #706F6F;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+.brr {
+    border: 1px solid red;
+}
+
+.brb {
+    border: 1px solid blue;
+}
+
+.brg {
+    border: 1px solid green;
+}
+
+@media screen and (max-width:425px) {
+    .main-btn{
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 0.5rem 1.5rem;
+    }
+}
