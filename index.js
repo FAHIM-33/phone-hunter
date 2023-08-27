@@ -18,7 +18,8 @@ function handler(phones){
     <p class="text-center mb-2 plain-text">There are many variations of passages of available, but the majority have suffered</p>
     <p class="t-header">$999</p>
     <button onclick="myFunction()" class="main-btn mt-4">Show Details</button>
-        `
+        `;
+        div.onclick = myFunction;
         parent.appendChild(div);
     })
 }
