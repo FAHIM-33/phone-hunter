@@ -17,10 +17,12 @@ function handler(phones){
     <h3 class="t-header my-5 text-center">${phone.phone_name}</h3>
     <p class="text-center mb-2 plain-text">There are many variations of passages of available, but the majority have suffered</p>
     <p class="t-header">$999</p>
-    <button class="main-btn mt-4">Show Details</button>
+    <button onclick="myFunction()" class="main-btn mt-4">Show Details</button>
         `
         parent.appendChild(div);
     })
 }
-
+function myFunction() {
+    location.replace("https://www.youtube.com/shorts/SXHMnicI6Pg");
+  }
 loadPhone()
