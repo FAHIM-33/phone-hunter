@@ -33,7 +33,7 @@ function handler(phones, range) {
         let div = document.createElement('div');
         div.classList = `card flex flex-col items-center p-8 rounded-lg shadow-2xl`;
         div.innerHTML = `
-        <figure>
+        <figure onclick="rickroll()">
         <img src=${phone.image} alt="">
     </figure>
     <h3 class="t-header my-5 text-center">${phone.phone_name}</h3>
@@ -90,17 +90,15 @@ Sensors:${phone?.mainFeatures?.sensors}<br>
     parent.appendChild(div);
 
 }
+
 function rickroll(){
-    console.log('whit');
     let container = document.getElementById('myModal');
     container.style.top = '0';
     let vid = document.getElementById('theVideo');
     vid.play();
     setTimeout(()=>{document.getElementById('closeModal').style.display = 'block';
-},3000)
+},2000)
 }
 function troll(){
     document.getElementById('trolling').style.display = 'block';
 }
-
-
