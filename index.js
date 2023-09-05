@@ -96,9 +96,16 @@ function rickroll(){
     container.style.top = '0';
     let vid = document.getElementById('theVideo');
     vid.play();
-    setTimeout(()=>{document.getElementById('closeModal').style.display = 'block';
+    setTimeout(()=>{
+        document.getElementById('shitModal').style.display = 'block';
 },2000)
 }
 function troll(){
-    document.getElementById('trolling').style.display = 'block';
+    let parent = document.getElementById('myModal')
+    let div = document.createElement('div')
+    div.innerHTML = `
+    <p id="trolling" class="text-white text-4xl font-semibold mx-auto text-center">Yo broke ass wanna get Even MORE rickrolled? XD</p>
+    `;
+    console.log(div);
+    parent.appendChild(div);
 }
