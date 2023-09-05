@@ -90,14 +90,7 @@ video {
     font-size: 40px;
     cursor: pointer;
 }
-.shit-left {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: white;
-    font-size: 40px;
-    cursor: pointer;
-}
+
 
 @media screen and (max-width:425px) {
     .main-btn{
